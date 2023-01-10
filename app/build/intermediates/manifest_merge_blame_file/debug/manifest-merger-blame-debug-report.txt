@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.se.curtis.wang"
+3    package="io.branch.branchster"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -191,7 +191,7 @@
 111-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
 112            android:name="com.google.firebase.provider.FirebaseInitProvider"
 112-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:13:13-77
-113            android:authorities="com.se.curtis.wang.firebaseinitprovider"
+113            android:authorities="io.branch.branchster.firebaseinitprovider"
 113-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:14:13-72
 114            android:exported="false"
 114-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:15:13-37

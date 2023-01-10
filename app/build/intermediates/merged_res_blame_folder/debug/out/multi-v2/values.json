@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values/values.xml",
+            "outputFile": "io.branch.branchster.app-mergeDebugResources-14:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/res/values/values.xml",

@@ -47,7 +47,7 @@ INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-A
 INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
 INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
 	package
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-33
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	android:versionName

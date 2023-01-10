@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.se.curtis.wang",
+  "applicationId": "io.branch.branchster",
   "variantName": "debug",
   "elements": [
     {

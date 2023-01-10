@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.se.curtis.wang"
+    package="io.branch.branchster"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -110,7 +110,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.se.curtis.wang.firebaseinitprovider"
+            android:authorities="io.branch.branchster.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

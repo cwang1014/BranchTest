@@ -3,9 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
-    namespace "com.se.curtis.wang"
+    namespace "io.branch.branchster"
     defaultConfig {
-        applicationId "com.se.curtis.wang"
+        applicationId "io.branch.branchster"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1

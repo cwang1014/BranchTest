@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values-v21/values-v21.xml",
+            "outputFile": "io.branch.branchster.app-mergeDebugResources-14:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/res/values-v21/values-v21.xml",

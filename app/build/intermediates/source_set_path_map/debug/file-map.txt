@@ -1,19 +1,19 @@
-com.se.curtis.wang.app-transition-1.0.0-0 /Users/curtiswang/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/res
-com.se.curtis.wang.app-jetified-play-services-basement-17.0.0-1 /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/res
-com.se.curtis.wang.app-recyclerview-1.0.0-2 /Users/curtiswang/.gradle/caches/transforms-3/437c0c97f351199fb8a4ee02d7a41f18/transformed/recyclerview-1.0.0/res
-com.se.curtis.wang.app-browser-1.0.0-3 /Users/curtiswang/.gradle/caches/transforms-3/50e3ffddcf2edd16ae5b2ea1b708d26a/transformed/browser-1.0.0/res
-com.se.curtis.wang.app-appcompat-1.0.0-4 /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/res
-com.se.curtis.wang.app-material-1.0.0-5 /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/res
-com.se.curtis.wang.app-core-1.0.0-6 /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/res
-com.se.curtis.wang.app-jetified-firebase-appindexing-19.0.0-7 /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/res
-com.se.curtis.wang.app-jetified-play-services-base-17.0.0-8 /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/res
-com.se.curtis.wang.app-coordinatorlayout-1.0.0-9 /Users/curtiswang/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/res
-com.se.curtis.wang.app-cardview-1.0.0-10 /Users/curtiswang/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/res
-com.se.curtis.wang.app-pngs-11 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/generated/res/pngs/debug
-com.se.curtis.wang.app-resValues-12 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/generated/res/resValues/debug
-com.se.curtis.wang.app-rs-13 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/generated/res/rs/debug
-com.se.curtis.wang.app-mergeDebugResources-14 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-com.se.curtis.wang.app-mergeDebugResources-15 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-com.se.curtis.wang.app-merged_res-16 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/intermediates/merged_res/debug
-com.se.curtis.wang.app-debug-17 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/debug/res
-com.se.curtis.wang.app-main-18 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/res
+io.branch.branchster.app-transition-1.0.0-0 /Users/curtiswang/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/res
+io.branch.branchster.app-jetified-play-services-basement-17.0.0-1 /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/res
+io.branch.branchster.app-recyclerview-1.0.0-2 /Users/curtiswang/.gradle/caches/transforms-3/437c0c97f351199fb8a4ee02d7a41f18/transformed/recyclerview-1.0.0/res
+io.branch.branchster.app-browser-1.0.0-3 /Users/curtiswang/.gradle/caches/transforms-3/50e3ffddcf2edd16ae5b2ea1b708d26a/transformed/browser-1.0.0/res
+io.branch.branchster.app-appcompat-1.0.0-4 /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/res
+io.branch.branchster.app-material-1.0.0-5 /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/res
+io.branch.branchster.app-core-1.0.0-6 /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/res
+io.branch.branchster.app-jetified-firebase-appindexing-19.0.0-7 /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/res
+io.branch.branchster.app-jetified-play-services-base-17.0.0-8 /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/res
+io.branch.branchster.app-coordinatorlayout-1.0.0-9 /Users/curtiswang/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/res
+io.branch.branchster.app-cardview-1.0.0-10 /Users/curtiswang/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/res
+io.branch.branchster.app-pngs-11 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/generated/res/pngs/debug
+io.branch.branchster.app-resValues-12 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/generated/res/resValues/debug
+io.branch.branchster.app-rs-13 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/generated/res/rs/debug
+io.branch.branchster.app-mergeDebugResources-14 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+io.branch.branchster.app-mergeDebugResources-15 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+io.branch.branchster.app-merged_res-16 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/build/intermediates/merged_res/debug
+io.branch.branchster.app-debug-17 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/debug/res
+io.branch.branchster.app-main-18 /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/res

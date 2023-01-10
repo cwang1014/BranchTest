@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values-fa/values-fa.xml",
+            "outputFile": "io.branch.branchster.app-mergeDebugResources-14:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/res/values-fa/values.xml",

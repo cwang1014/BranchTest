@@ -1,342 +1,335 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.branch.sdk.android:library:5.2.7] /Users/curtiswang/.gradle/caches/transforms-3/ccce762befeb86f8ad7496e9c53d2509/transformed/jetified-library-5.2.7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/50e3ffddcf2edd16ae5b2ea1b708d26a/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/df63a53b8201b61e35b0f684f2c47f60/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56b38d5d933fb4f97dacf68dea85ed54/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5bda5817c2d3c7a4034191d99db2b3d5/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5a10a5d42221b2d85df60608cde22252/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/437c0c97f351199fb8a4ee02d7a41f18/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/eb12f00a73b2d9ebc9dfe125af509ed1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/e8b9ddf408c265db5e37cdaf3220a2ae/transformed/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/582a08d95629e1c5c09588cfdd338612/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f9294253ceb16a4605b1f28d26267b69/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a33599820413b39306533ebcc3efaada/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5494538d61a363f20d03ecac1b94dc16/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/cc3b82abf76348c8aa8d82e93666f74c/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/af35d399d97042dd6cf76efe70e78b2d/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/297513304d2f985dda3a517f5af1ea7c/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f7ca91eab21575eed2a0be5b1b02101f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/0e741046a937ab091b9e076b813b3774/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-35
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:5:5-32
-		INJECTED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:4:5-29
-		INJECTED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:multidex:1.0.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.android.gms:play-services:6.5.87] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:23:9-57
-	android:targetSdkVersion
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:9:9-38
-	android:minSdkVersion
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:5-67
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:22-64
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:5-80
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:22-78
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:5-80
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:22-77
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:5-78
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:5-57:19
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services:6.5.87] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:customtabs:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:10:5-57:19
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56b38d5d933fb4f97dacf68dea85ed54/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56b38d5d933fb4f97dacf68dea85ed54/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/cc3b82abf76348c8aa8d82e93666f74c/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/cc3b82abf76348c8aa8d82e93666f74c/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:9-41
-	android:allowBackup
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-35
-	android:icon
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:9-45
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-41
 	android:largeHeap
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-33
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:9-33
+	android:icon
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-45
 activity#io.branch.branchster.SplashActivity
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:9-39:20
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-36:20
 	android:screenOrientation
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-49
-	android:label
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-45
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-52
 	android:launchMode
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:13-44
-	android:theme
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:13-53
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-63
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:27:13-30:29
-action#android.intent.action.MAIN
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:28:17-69
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:28:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:17-77
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:27-74
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:13-37:26
-data
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:17-54
-	android:scheme
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:23-51
-action#android.intent.action.VIEW
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:14-66
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:22-63
-category#android.intent.category.DEFAULT
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:14-73
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:24-70
-category#android.intent.category.BROWSABLE
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:36:14-75
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:36:24-72
-activity#io.branch.branchster.MonsterViewerActivity
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:41:9-46:20
-	android:screenOrientation
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:45:13-49
-	android:launchMode
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:44:13-48
-	android:theme
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:43:13-49
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:42:13-70
-activity#io.branch.branchster.MonsterCreatorActivity
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:48:9-53:20
-	android:screenOrientation
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:13-49
-	android:launchMode
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:51:13-48
-	android:theme
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:50:13-49
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:49:13-71
-meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:9-107
-	android:value
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:66-105
-	android:name
-		ADDED from /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:20-65
-meta-data#android.support.VERSION
-ADDED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:customtabs:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:support-fragment:25.3.1] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:26:9-47
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services:6.5.87] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services:6.5.87] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services:6.5.87] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/AndroidManifest.xml:22:13-58
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:29:9-32:66
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:31:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:32:13-63
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:30:13-57
-activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:33:9-71
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:33:19-68
-provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:44:9-47:40
-	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:46:13-72
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-44
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:47:13-37
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-53
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.25.0] /Users/marshall/Dropbox/Branchster-Android-No-SDK/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.25.0/AndroidManifest.xml:45:13-70
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:fcpj8.app.link+data:scheme:https
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:13-34:26
+data
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:17-77
+	android:host
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:46-75
+	android:scheme
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:23-45
+action#android.intent.action.VIEW
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:14-66
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:22-63
+category#android.intent.category.DEFAULT
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:14-73
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:24-70
+category#android.intent.category.BROWSABLE
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:14-75
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:24-72
+activity#io.branch.branchster.MonsterViewerActivity
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:38:9-43:20
+	android:screenOrientation
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:42:13-52
+	android:launchMode
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:41:13-48
+	android:theme
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:39:13-70
+activity#io.branch.branchster.MonsterCreatorActivity
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:45:9-50:20
+	android:screenOrientation
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:49:13-52
+	android:launchMode
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:48:13-48
+	android:theme
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:46:13-71
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:9-148
+	android:value
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:66-146
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:20-65
+meta-data#io.branch.sdk.BranchKey
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:9-119
+	android:value
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:59-116
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:20-58
+meta-data#io.branch.sdk.BranchKey.test
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:9-124
+	android:value
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:64-121
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:20-63
+meta-data#io.branch.sdk.TestMode
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:9-82
+	android:value
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:58-79
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:20-57
+uses-sdk
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.branch.sdk.android:library:5.2.7] /Users/curtiswang/.gradle/caches/transforms-3/ccce762befeb86f8ad7496e9c53d2509/transformed/jetified-library-5.2.7/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.sdk.android:library:5.2.7] /Users/curtiswang/.gradle/caches/transforms-3/ccce762befeb86f8ad7496e9c53d2509/transformed/jetified-library-5.2.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/50e3ffddcf2edd16ae5b2ea1b708d26a/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/50e3ffddcf2edd16ae5b2ea1b708d26a/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/df63a53b8201b61e35b0f684f2c47f60/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/df63a53b8201b61e35b0f684f2c47f60/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bd0a9a74f98f76cf57c7c79f09aef8c8/transformed/jetified-firebase-appindexing-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56b38d5d933fb4f97dacf68dea85ed54/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56b38d5d933fb4f97dacf68dea85ed54/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5bda5817c2d3c7a4034191d99db2b3d5/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5bda5817c2d3c7a4034191d99db2b3d5/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5a10a5d42221b2d85df60608cde22252/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5a10a5d42221b2d85df60608cde22252/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/437c0c97f351199fb8a4ee02d7a41f18/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/437c0c97f351199fb8a4ee02d7a41f18/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/eb12f00a73b2d9ebc9dfe125af509ed1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/eb12f00a73b2d9ebc9dfe125af509ed1/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/e8b9ddf408c265db5e37cdaf3220a2ae/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/e8b9ddf408c265db5e37cdaf3220a2ae/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/1f7682181cb5c7488a4f615883dadc23/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/582a08d95629e1c5c09588cfdd338612/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/582a08d95629e1c5c09588cfdd338612/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/d9fc0fd948d60bd590ef43b98aaf7ec1/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f9294253ceb16a4605b1f28d26267b69/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f9294253ceb16a4605b1f28d26267b69/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a33599820413b39306533ebcc3efaada/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a33599820413b39306533ebcc3efaada/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5494538d61a363f20d03ecac1b94dc16/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5494538d61a363f20d03ecac1b94dc16/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/cc3b82abf76348c8aa8d82e93666f74c/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/cc3b82abf76348c8aa8d82e93666f74c/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/af35d399d97042dd6cf76efe70e78b2d/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/af35d399d97042dd6cf76efe70e78b2d/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/297513304d2f985dda3a517f5af1ea7c/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/297513304d2f985dda3a517f5af1ea7c/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f7ca91eab21575eed2a0be5b1b02101f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f7ca91eab21575eed2a0be5b1b02101f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/0e741046a937ab091b9e076b813b3774/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/0e741046a937ab091b9e076b813b3774/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services:6.5.87] /Users/curtiswang/.gradle/caches/transforms-3/2dd4d07bfd9b1e6c67185e8fd0d3bf22/transformed/jetified-play-services-6.5.87/AndroidManifest.xml:22:13-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:9:22-107

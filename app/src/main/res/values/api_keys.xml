@@ -6,7 +6,7 @@
     If you don't have one, see the Branch Android Quick-Start for how to get one:
     https://github.com/BranchMetrics/Branch-Integration-Guides/blob/master/android-quick-start.md
     -->
-    <string name="branch_key">key_live_gchnKkd3l3m9YBPP2d73jmfejkcgVjgM</string>
+    <string name="branch_key">key_live_dnW19wxhWck7gbzSnSOcuohjFEhOK69n</string>
     <string name="branch_key_test">key_test_lkhEVOq9sPU9FXgbSAoQthfhqsd5EVaV</string>
 
 
@@ -15,7 +15,7 @@
     If you don't have these, see the Twitter Kit for Android documentation:
     https://dev.twitter.com/twitter-kit/android
     -->
-    <string name="twitter_key">YOUR TWITTER APP KEY</string>
-    <string name="twitter_secret">YOUR TWITTER APP SECRET</string>
+    <string name="twitter_key">qO0tmxg5cEaWIkoe9JZpfuh8C</string>
+    <string name="twitter_secret">lnvabgSzxOnevjnyIGGqeHRmY8SpIfvTCyssQzaBBA9YiLjCd6</string>
 
 </resources>

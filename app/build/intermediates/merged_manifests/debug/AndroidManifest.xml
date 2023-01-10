@@ -34,6 +34,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Default" >
+
+        <!-- Launcher Activity to handle incoming Branch intents -->
         <activity
             android:name="io.branch.branchster.SplashActivity"
             android:exported="true"
@@ -45,9 +47,23 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter android:autoVerify="true" >
 
-                <!-- <data android:scheme="se_curtis_wang" android:host="open"/> -->
+            <!-- Branch URI Scheme -->
+            <intent-filter>
+
+                <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
+                <data
+                    android:host="open"
+                    android:scheme="io.branch.branchster" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links - Live App -->
+            <intent-filter android:autoVerify="true" >
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -61,20 +77,21 @@
                     android:host="fcpj8-alternate.app.link"
                     android:scheme="https" />
             </intent-filter>
+            <!-- Branch App Links - Test App -->
+            <intent-filter android:autoVerify="true" >
+                <action android:name="android.intent.action.VIEW" />
 
-            <!--
-            <intent-filter android:autoVerify="true">
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.DEFAULT" />
-            <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="https" android:host="fcpj8.app.link" />
-            -->
-            <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
-            <!--
-            <data android:scheme="https" android:host="fcpj8-alternate.app.link" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="fcpj8.test-app.link"
+                    android:scheme="https" />
+                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
+                <data
+                    android:host="fcpj8-alternate.test-app.link"
+                    android:scheme="https" />
             </intent-filter>
-            -->
-
         </activity>
         <activity
             android:name="io.branch.branchster.MonsterViewerActivity"
@@ -82,6 +99,12 @@
             android:launchMode="singleInstance"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.Default" >
+            <meta-data
+                android:name="io.branch.sdk.auto_link_path"
+                android:value="monster/viewer/" />
+            <meta-data
+                android:name="io.branch.sdk.auto_link_request_code"
+                android:value="@integer/AutoDeeplinkRequestCode" />
         </activity>
         <activity
             android:name="io.branch.branchster.MonsterCreatorActivity"
@@ -89,11 +112,18 @@
             android:launchMode="singleInstance"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.Default" >
+            <meta-data
+                android:name="io.branch.sdk.auto_link_path"
+                android:value="monster/creator/" />
+            <meta-data
+                android:name="io.branch.sdk.auto_link_request_code"
+                android:value="@integer/AutoDeeplinkRequestCode" />
         </activity>
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="e42146267f609d143ac39e0bde3b685cd9bfe77f7bb3d5c394aaa3df3f31eda5" />
+        <!-- Branch init -->
         <meta-data
             android:name="io.branch.sdk.BranchKey"
             android:value="key_live_dnW19wxhWck7gbzSnSOcuohjFEhOK69n" />

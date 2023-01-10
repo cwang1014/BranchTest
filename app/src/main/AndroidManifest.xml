@@ -26,7 +26,7 @@
             </intent-filter>
 
             <intent-filter>
-                <data android:scheme="fcpj8.app.link" android:host="open"/>
+                <data android:scheme="se_curtis_wang" android:host="open"/>
             	<action android:name="android.intent.action.VIEW" />
             	<category android:name="android.intent.category.DEFAULT" />
             	<category android:name="android.intent.category.BROWSABLE" />

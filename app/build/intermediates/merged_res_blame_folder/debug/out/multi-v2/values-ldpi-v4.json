@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eneff.branch.example.android.app-mergeDebugResources-16:/values-ldpi-v4/values-ldpi-v4.xml",
+            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values-ldpi-v4/values-ldpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/res/values-ldpi/dimens.xml",

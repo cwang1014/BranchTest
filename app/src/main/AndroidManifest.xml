@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.eneff.branch.example.android">
+    package="com.se.curtis.wang">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -25,21 +25,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <intent-filter>
-                <data android:scheme="se_curtis_wang" android:host="open"/>
+            <intent-filter android:autoVerify="true">
+                <!--<data android:scheme="se_curtis_wang" android:host="open"/>-->
             	<action android:name="android.intent.action.VIEW" />
             	<category android:name="android.intent.category.DEFAULT" />
             	<category android:name="android.intent.category.BROWSABLE" />
-        	</intent-filter>
-
-            <intent-filter android:autoVerify="true">
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https" android:host="fcpj8.app.link" />
                 <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website.  -->
                 <data android:scheme="https" android:host="fcpj8-alternate.app.link" />
-            </intent-filter>
+        </intent-filter>
+
+        <!--<intent-filter android:autoVerify="true">
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" android:host="fcpj8.app.link" />-->
+                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website.  -->
+                <!--<data android:scheme="https" android:host="fcpj8-alternate.app.link" />
+            </intent-filter>-->
 
         </activity>
 
@@ -47,6 +50,7 @@
             android:name="io.branch.branchster.MonsterViewerActivity"
             android:theme="@style/Theme.Default"
             android:launchMode="singleInstance"
+            android:exported="true"
             android:screenOrientation="unspecified">
         </activity>
 
@@ -54,6 +58,7 @@
             android:name="io.branch.branchster.MonsterCreatorActivity"
             android:theme="@style/Theme.Default"
             android:launchMode="singleInstance"
+            android:exported="true"
             android:screenOrientation="unspecified">
         </activity>
 

@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.eneff.branch.example.android",
+  "applicationId": "com.se.curtis.wang",
   "variantName": "debug",
   "elements": []
 }

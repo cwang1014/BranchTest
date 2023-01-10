@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eneff.branch.example.android.app-mergeDebugResources-16:/values-te/values-te.xml",
+            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values-te/values-te.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/res/values-te/values-te.xml",

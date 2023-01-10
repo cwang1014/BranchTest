@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eneff.branch.example.android.app-mergeDebugResources-16:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/res/values-xlarge-v4/values-xlarge-v4.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eneff.branch.example.android.app-mergeDebugResources-16:/values-v21/values-v21.xml",
+            "outputFile": "com.se.curtis.wang.app-mergeDebugResources-14:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/res/values-v21/values-v21.xml",
@@ -14,12 +14,12 @@
                         "endOffsets": "479,905,1328,1763"
                     },
                     "to": {
-                        "startLines": "282,290,298,306",
+                        "startLines": "270,278,286,294",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "19982,20411,20837,21260",
-                        "endLines": "289,297,305,313",
+                        "startOffsets": "19316,19745,20171,20594",
+                        "endLines": "277,285,293,301",
                         "endColumns": "10,10,10,10",
-                        "endOffsets": "20406,20832,21255,21690"
+                        "endOffsets": "19740,20166,20589,21024"
                     }
                 },
                 {
@@ -33,12 +33,12 @@
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,266,267,274,278,319,322",
+                        "startLines": "2,3,4,5,266,267,268,269,307,310",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,18820,18936,19393,19687,22035,22207",
-                        "endLines": "2,3,4,5,266,267,274,278,321,326",
+                        "startOffsets": "55,159,223,290,18820,18936,19062,19188,21369,21541",
+                        "endLines": "2,3,4,5,266,267,268,269,309,314",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,18931,19057,19514,19810,22202,22540"
+                        "endOffsets": "154,218,285,349,18931,19057,19183,19311,21536,21874"
                     }
                 },
                 {
@@ -52,31 +52,12 @@
                         "endOffsets": "297,384,640"
                     },
                     "to": {
-                        "startLines": "225,314,315",
+                        "startLines": "225,302,303",
                         "startColumns": "4,4,4",
-                        "startOffsets": "16481,21695,21781",
-                        "endLines": "227,314,318",
+                        "startOffsets": "16481,21029,21115",
+                        "endLines": "227,302,306",
                         "endColumns": "12,85,12",
-                        "endOffsets": "16663,21776,22030"
-                    }
-                },
-                {
-                    "source": "/Users/curtiswang/.gradle/caches/transforms-3/582a08d95629e1c5c09588cfdd338612/transformed/media-1.0.0/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "268,271,275,279",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19062,19230,19519,19815",
-                        "endLines": "270,273,277,281",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "19225,19388,19682,19977"
+                        "endOffsets": "16663,21110,21364"
                     }
                 },
                 {

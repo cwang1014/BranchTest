@@ -7,5 +7,5 @@
 /app/src/main/res/values/*
 
 .DS_Store
-/build
+/app/build
 /captures

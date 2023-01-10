@@ -24,16 +24,16 @@
 14-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:22-76
 15
 16    <queries>
-16-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:72:5-77:15
+16-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:73:5-78:15
 17        <intent>
-17-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:73:9-76:18
+17-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:9-77:18
 18            <action android:name="android.intent.action.SEND" />
-18-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:13-65
-18-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:21-62
+18-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:13-65
+18-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:21-62
 19
 20            <data android:mimeType="text/plain" />
-20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:17-78
-20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:19-48
+20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:17-78
+20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:76:19-48
 21        </intent>
 22    </queries>
 23
@@ -42,168 +42,170 @@
 24-->[com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:9:22-107
 25
 26    <application
-26-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:10:5-70:19
-27        android:allowBackup="true"
-27-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:9-35
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
-29        android:debuggable="true"
-30        android:icon="@drawable/ic_launcher"
-30-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:9-45
-31        android:label="@string/app_name"
-31-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-41
-32        android:largeHeap="true"
-32-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:9-33
-33        android:supportsRtl="true"
-33-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-35
-34        android:testOnly="true"
-35        android:theme="@style/Theme.Default" >
-35-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-45
-36        <activity
-36-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-47:20
-37            android:name="io.branch.branchster.SplashActivity"
-37-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:13-63
-38            android:exported="true"
-38-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:13-36
-39            android:launchMode="singleTask"
-39-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-44
-40            android:screenOrientation="unspecified"
-40-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-52
-41            android:theme="@style/Theme.Transparent" >
-41-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-53
-42            <intent-filter>
-42-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-26:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:17-69
-43-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:17-77
-45-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:27-74
-46            </intent-filter>
-47            <intent-filter android:autoVerify="true" >
-47-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:28:13-36:25
-47-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:28:28-53
-48
-49                <!-- <data android:scheme="se_curtis_wang" android:host="open"/> -->
-50                <action android:name="android.intent.action.VIEW" />
-50-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:14-66
-50-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:22-63
-51
-52                <category android:name="android.intent.category.DEFAULT" />
-52-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:14-73
-52-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:24-70
-53                <category android:name="android.intent.category.BROWSABLE" />
-53-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:14-75
-53-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:24-72
-54
-55                <data
-55-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:17-78
-56                    android:host="fcpj8.app.link"
-56-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:46-75
-57                    android:scheme="https" />
-57-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:23-45
-58                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
-59                <data
-59-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:17-78
-60                    android:host="fcpj8-alternate.app.link"
-60-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:46-75
-61                    android:scheme="https" />
-61-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:23-45
-62            </intent-filter>
-63
-64            <!--
-65            <intent-filter android:autoVerify="true">
-66            <action android:name="android.intent.action.VIEW" />
-67            <category android:name="android.intent.category.DEFAULT" />
-68            <category android:name="android.intent.category.BROWSABLE" />
-69            <data android:scheme="https" android:host="fcpj8.app.link" />
-70            -->
-71            <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
-72            <!--
-73            <data android:scheme="https" android:host="fcpj8-alternate.app.link" />
-74            </intent-filter>
-75            -->
-76
-77        </activity>
-78        <activity
-78-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:49:9-55:20
-79            android:name="io.branch.branchster.MonsterViewerActivity"
-79-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:50:13-70
-80            android:exported="true"
-80-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:13-36
-81            android:launchMode="singleInstance"
-81-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:13-48
-82            android:screenOrientation="unspecified"
-82-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:13-52
-83            android:theme="@style/Theme.Default" >
-83-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:51:13-49
-84        </activity>
-85        <activity
-85-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:57:9-63:20
-86            android:name="io.branch.branchster.MonsterCreatorActivity"
-86-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:58:13-71
-87            android:exported="true"
-87-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:61:13-36
-88            android:launchMode="singleInstance"
-88-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:60:13-48
-89            android:screenOrientation="unspecified"
-89-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:62:13-52
-90            android:theme="@style/Theme.Default" >
-90-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:59:13-49
-91        </activity>
-92
-93        <meta-data
-93-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:65:9-148
-94            android:name="com.facebook.sdk.ApplicationId"
-94-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:65:20-65
-95            android:value="e42146267f609d143ac39e0bde3b685cd9bfe77f7bb3d5c394aaa3df3f31eda5" />
-95-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:65:66-146
-96        <meta-data
-96-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:9-119
-97            android:name="io.branch.sdk.BranchKey"
-97-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:20-58
-98            android:value="key_live_dnW19wxhWck7gbzSnSOcuohjFEhOK69n" />
-98-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:59-116
-99        <meta-data
-99-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:9-124
-100            android:name="io.branch.sdk.BranchKey.test"
-100-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:20-63
-101            android:value="key_test_fj231yqm4nk8obDTfMWGznagDzlRP18r" />
-101-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:64-121
-102        <meta-data
-102-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:9-82
-103            android:name="io.branch.sdk.TestMode"
-103-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:20-57
-104            android:value="false" /> <!-- Set to true to use Branch_Test_Key (useful when simulating installs and/or switching between debug and production flavors) -->
-104-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:58-79
-105
-106        <activity
-106-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-107-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-108            android:exported="false"
-108-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-109-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-110
-111        <provider
-111-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
-112            android:name="com.google.firebase.provider.FirebaseInitProvider"
-112-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:13:13-77
-113            android:authorities="io.branch.branchster.firebaseinitprovider"
-113-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:14:13-72
-114            android:exported="false"
-114-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:15:13-37
-115            android:initOrder="100" />
-115-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:16:13-36
-116
-117        <meta-data
-117-->[com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-118            android:name="com.google.android.gms.version"
-118-->[com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-119            android:value="@integer/google_play_services_version" />
-119-->[com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-120    </application>
-121
-122</manifest>
+26-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:10:5-71:19
+27        android:name="io.branch.branchster.BranchsterAndroidApplication"
+27-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:9-73
+28        android:allowBackup="true"
+28-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/ic_launcher"
+31-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-45
+32        android:label="@string/app_name"
+32-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-41
+33        android:largeHeap="true"
+33-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:9-33
+34        android:supportsRtl="true"
+34-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.Default" >
+36-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-45
+37        <activity
+37-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:9-48:20
+38            android:name="io.branch.branchster.SplashActivity"
+38-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:13-63
+39            android:exported="true"
+39-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-36
+40            android:launchMode="singleTask"
+40-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-44
+41            android:screenOrientation="unspecified"
+41-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-52
+42            android:theme="@style/Theme.Transparent" >
+42-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-53
+43            <intent-filter>
+43-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:13-27:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:17-69
+44-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:17-77
+46-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:27-74
+47            </intent-filter>
+48            <intent-filter android:autoVerify="true" >
+48-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:13-37:25
+48-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:28-53
+49
+50                <!-- <data android:scheme="se_curtis_wang" android:host="open"/> -->
+51                <action android:name="android.intent.action.VIEW" />
+51-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:14-66
+51-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:22-63
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:14-73
+53-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:24-70
+54                <category android:name="android.intent.category.BROWSABLE" />
+54-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:14-75
+54-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:24-72
+55
+56                <data
+56-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:17-78
+57                    android:host="fcpj8.app.link"
+57-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:46-75
+58                    android:scheme="https" />
+58-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:23-45
+59                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
+60                <data
+60-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:17-78
+61                    android:host="fcpj8-alternate.app.link"
+61-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:46-75
+62                    android:scheme="https" />
+62-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:23-45
+63            </intent-filter>
+64
+65            <!--
+66            <intent-filter android:autoVerify="true">
+67            <action android:name="android.intent.action.VIEW" />
+68            <category android:name="android.intent.category.DEFAULT" />
+69            <category android:name="android.intent.category.BROWSABLE" />
+70            <data android:scheme="https" android:host="fcpj8.app.link" />
+71            -->
+72            <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
+73            <!--
+74            <data android:scheme="https" android:host="fcpj8-alternate.app.link" />
+75            </intent-filter>
+76            -->
+77
+78        </activity>
+79        <activity
+79-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:50:9-56:20
+80            android:name="io.branch.branchster.MonsterViewerActivity"
+80-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:51:13-70
+81            android:exported="true"
+81-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:13-36
+82            android:launchMode="singleInstance"
+82-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:13-48
+83            android:screenOrientation="unspecified"
+83-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:13-52
+84            android:theme="@style/Theme.Default" >
+84-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:13-49
+85        </activity>
+86        <activity
+86-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:58:9-64:20
+87            android:name="io.branch.branchster.MonsterCreatorActivity"
+87-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:59:13-71
+88            android:exported="true"
+88-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:62:13-36
+89            android:launchMode="singleInstance"
+89-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:61:13-48
+90            android:screenOrientation="unspecified"
+90-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:63:13-52
+91            android:theme="@style/Theme.Default" >
+91-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:60:13-49
+92        </activity>
+93
+94        <meta-data
+94-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:9-148
+95            android:name="com.facebook.sdk.ApplicationId"
+95-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:20-65
+96            android:value="e42146267f609d143ac39e0bde3b685cd9bfe77f7bb3d5c394aaa3df3f31eda5" />
+96-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:66-146
+97        <meta-data
+97-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:9-119
+98            android:name="io.branch.sdk.BranchKey"
+98-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:20-58
+99            android:value="key_live_dnW19wxhWck7gbzSnSOcuohjFEhOK69n" />
+99-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:59-116
+100        <meta-data
+100-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:9-124
+101            android:name="io.branch.sdk.BranchKey.test"
+101-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:20-63
+102            android:value="key_test_fj231yqm4nk8obDTfMWGznagDzlRP18r" />
+102-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:64-121
+103        <meta-data
+103-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:69:9-82
+104            android:name="io.branch.sdk.TestMode"
+104-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:69:20-57
+105            android:value="false" /> <!-- Set to true to use Branch_Test_Key (useful when simulating installs and/or switching between debug and production flavors) -->
+105-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:69:58-79
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/c66b905017cb0a83b00a19f5f6e5d20c/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+114            android:authorities="io.branch.branchster.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:18.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f938329adda7854bec3e48aa7359fc7d/transformed/jetified-firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:17.0.0] /Users/curtiswang/.gradle/caches/transforms-3/31a6c5dfe4610270c4c3dd959c8702fe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+121    </application>
+122
+123</manifest>

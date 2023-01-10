@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
-    namespace "io.branch.branchster"
     defaultConfig {
         applicationId "io.branch.branchster"
         minSdkVersion 21
@@ -26,14 +25,16 @@ android {
 }
 
 repositories{
-//    flatDir{
-//        dirs 'libs'
-//    }
+    flatDir{
+        dirs 'libs'
+    }
+    google()
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // implementation 'com.google.android.gms:play-services:6.5.87'
+    implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.android.support:appcompat-v7:25.2.0'
     implementation 'com.android.support:design:25.2.0'
     // required for all Android apps

@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
-INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
-INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
-INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/curtiswang/.gradle/caches/transforms-3/2a0781d7fb3637d35291e6ed8b784902/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [io.branch.sdk.android:library:5.2.7] /Users/curtiswang/.gradle/caches/transforms-3/ccce762befeb86f8ad7496e9c53d2509/transformed/jetified-library-5.2.7/AndroidManifest.xml:2:1-11:12
@@ -43,20 +44,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/curtiswang/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/f7ca91eab21575eed2a0be5b1b02101f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/curtiswang/.gradle/caches/transforms-3/0e741046a937ab091b9e076b813b3774/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/.gradle/caches/transforms-3/fb0189a3b62b9a21e2d74ebabd2b0725/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
-INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
-INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
 	package
 		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-79:12
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:1-80:12
 		INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:2:11-69
@@ -79,7 +80,7 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/
 	android:name
 		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:10:5-70:19
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:10:5-71:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.1.0] /Users/curtiswang/.gradle/caches/transforms-3/dcf22cf7e926e6387e8570ec8dcd03b5/transformed/jetified-play-services-ads-identifier-17.1.0/AndroidManifest.xml:25:5-20
@@ -103,123 +104,127 @@ MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/curtiswang/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/a30ee7a61fe7396ebe40d44700d94ec6/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:15:9-41
 	android:largeHeap
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:9-33
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:9-33
 	android:icon
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:9-45
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:14:9-45
 	android:allowBackup
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:16:9-45
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-45
+	android:name
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:11:9-73
 activity#io.branch.branchster.SplashActivity
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:17:9-47:20
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:9-48:20
 	android:screenOrientation
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-52
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-52
 	android:launchMode
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-44
 	android:exported
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:21:13-53
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:22:13-53
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:18:13-63
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:19:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:26:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:fcpj8-alternate.app.link+data:host:fcpj8.app.link+data:scheme:https+data:scheme:https
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:28:13-36:25
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:13-37:25
 	android:autoVerify
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:28:28-53
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:28-53
 action#android.intent.action.VIEW
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:14-66
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:14-66
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:22-63
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:22-63
 category#android.intent.category.DEFAULT
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:14-73
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:14-73
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:31:24-70
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:24-70
 category#android.intent.category.BROWSABLE
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:14-75
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:14-75
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:32:24-72
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:24-72
 data
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:17-78
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:17-78
 	android:host
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:46-75
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:46-75
 	android:scheme
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:23-45
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:34:23-45
 	android:mimeType
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:19-48
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:76:19-48
 activity#io.branch.branchster.MonsterViewerActivity
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:49:9-55:20
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:50:9-56:20
 	android:screenOrientation
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:13-52
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:55:13-52
 	android:launchMode
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:13-48
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:13-48
 	android:exported
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:53:13-36
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:54:13-36
 	android:theme
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:52:13-49
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:50:13-70
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:51:13-70
 activity#io.branch.branchster.MonsterCreatorActivity
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:57:9-63:20
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:58:9-64:20
 	android:screenOrientation
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:62:13-52
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:63:13-52
 	android:launchMode
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:60:13-48
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:61:13-48
 	android:exported
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:61:13-36
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:62:13-36
 	android:theme
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:59:13-49
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:60:13-49
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:58:13-71
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:59:13-71
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:65:9-148
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:9-148
 	android:value
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:65:66-146
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:66-146
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:65:20-65
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:20-65
 meta-data#io.branch.sdk.BranchKey
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:9-119
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:9-119
 	android:value
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:59-116
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:59-116
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:66:20-58
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:20-58
 meta-data#io.branch.sdk.BranchKey.test
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:9-124
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:9-124
 	android:value
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:64-121
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:64-121
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:67:20-63
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:20-63
 meta-data#io.branch.sdk.TestMode
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:9-82
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:69:9-82
 	android:value
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:58-79
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:69:58-79
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:68:20-57
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:69:20-57
 queries
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:72:5-77:15
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:73:5-78:15
 intent#action:name:android.intent.action.SEND+data:mimeType:text/plain
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:73:9-76:18
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:9-77:18
 action#android.intent.action.SEND
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:13-65
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:13-65
 	android:name
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:74:21-62
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:75:21-62
 uses-sdk
 INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
 INJECTED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/curtiswang/.gradle/caches/transforms-3/2a0781d7fb3637d35291e6ed8b784902/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/curtiswang/.gradle/caches/transforms-3/2a0781d7fb3637d35291e6ed8b784902/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/967458e5e1697ce1cd0caca67c3c7c69/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/curtiswang/.gradle/caches/transforms-3/6f764d6764fd1560572280ade36a074a/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44

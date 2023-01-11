@@ -51,23 +51,20 @@ public class SplashActivity extends Activity {
 //        IntegrationValidator.validate(SplashActivity.this);
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
-        Branch.sessionBuilder(this).withCallback(new Branch.BranchUniversalReferralInitListener() {
-            @Override
-            public void onInitFinished(BranchUniversalObject branchUniversalObject, LinkProperties linkProperties, BranchError error) {
-                if (error != null) {
-                    Log.e("BranchSDK_Tester", "branch init failed. Caused by -" + error.getMessage());
-                } else {
-                    Log.e("BranchSDK_Tester", "branch init complete!");
-                    if (branchUniversalObject != null) {
-                        Log.e("BranchSDK_Tester", "title " + branchUniversalObject.getTitle());
-                        Log.e("BranchSDK_Tester", "CanonicalIdentifier " + branchUniversalObject.getCanonicalIdentifier());
-                        Log.e("BranchSDK_Tester", "metadata " + branchUniversalObject.getContentMetadata().convertToJson());
-                    }
+        Branch.sessionBuilder(this).withCallback((branchUniversalObject, linkProperties, error) -> {
+            if (error != null) {
+                Log.e("BranchSDK_Tester", "branch init failed. Caused by -" + error.getMessage());
+            } else {
+                Log.e("BranchSDK_Tester", "branch init complete!");
+                if (branchUniversalObject != null) {
+                    Log.e("BranchSDK_Tester", "title " + branchUniversalObject.getTitle());
+                    Log.e("BranchSDK_Tester", "CanonicalIdentifier " + branchUniversalObject.getCanonicalIdentifier());
+                    Log.e("BranchSDK_Tester", "metadata " + branchUniversalObject.getContentMetadata().convertToJson());
+                }
 
-                    if (linkProperties != null) {
-                        Log.e("BranchSDK_Tester", "Channel " + linkProperties.getChannel());
-                        Log.e("BranchSDK_Tester", "control params " + linkProperties.getControlParams());
-                    }
+                if (linkProperties != null) {
+                    Log.e("BranchSDK_Tester", "Channel " + linkProperties.getChannel());
+                    Log.e("BranchSDK_Tester", "control params " + linkProperties.getControlParams());
                 }
             }
         }).withData(this.getIntent().getData()).init();
@@ -83,14 +80,11 @@ public class SplashActivity extends Activity {
     public void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         this.setIntent(intent);
-        Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener() {
-            @Override
-            public void onInitFinished(JSONObject referringParams, BranchError error) {
-                if (error != null) {
-                    Log.e("BranchSDK_Tester", error.getMessage());
-                } else if (referringParams != null) {
-                    Log.e("BranchSDK_Tester", referringParams.toString());
-                }
+        Branch.sessionBuilder(this).withCallback((referringParams, error) -> {
+            if (error != null) {
+                Log.e("BranchSDK_Tester", error.getMessage());
+            } else if (referringParams != null) {
+                Log.e("BranchSDK_Tester", referringParams.toString());
             }
         }).reInit();
     }

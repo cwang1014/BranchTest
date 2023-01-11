@@ -105,7 +105,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     private void shareMyMonster() {
         progressBar.setVisibility(View.VISIBLE);
 
-        String url = "http://example.com"; // TODO: Replace with Branch-generated shortUrl
+        String url = "fcpj8.app.link"; // TODO: Replace with Branch-generated shortUrl
 
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("text/plain");

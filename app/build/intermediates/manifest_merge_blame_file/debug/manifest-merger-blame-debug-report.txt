@@ -32,7 +32,7 @@
 18-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:99:21-62
 19
 20            <data android:mimeType="text/plain" />
-20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 20-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:100:19-48
 21        </intent>
 22    </queries>
@@ -92,11 +92,11 @@
 53
 54                <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
 55                <data
-55-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+55-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 56                    android:host="open"
-56-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:61-80
-57                    android:scheme="io.branch.branchster" />
-57-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-60
+56-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:52-71
+57                    android:scheme="branchsters" />
+57-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-51
 58
 59                <action android:name="android.intent.action.VIEW" />
 59-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:36:14-66
@@ -126,18 +126,18 @@
 70-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:38:24-72
 71
 72                <data
-72-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+72-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 73                    android:host="fcpj8.app.link"
-73-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:61-80
+73-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:52-71
 74                    android:scheme="https" />
-74-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-60
+74-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-51
 75                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
 76                <data
-76-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+76-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 77                    android:host="fcpj8-alternate.app.link"
-77-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:61-80
+77-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:52-71
 78                    android:scheme="https" />
-78-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-60
+78-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-51
 79            </intent-filter>
 80            <!-- Branch App Links - Test App -->
 81            <intent-filter android:autoVerify="true" >
@@ -155,18 +155,18 @@
 85-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:38:24-72
 86
 87                <data
-87-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+87-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 88                    android:host="fcpj8.test-app.link"
-88-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:61-80
+88-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:52-71
 89                    android:scheme="https" />
-89-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-60
+89-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-51
 90                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
 91                <data
-91-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+91-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 92                    android:host="fcpj8-alternate.test-app.link"
-92-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:61-80
+92-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:52-71
 93                    android:scheme="https" />
-93-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-60
+93-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-51
 94            </intent-filter>
 95        </activity>
 96        <activity

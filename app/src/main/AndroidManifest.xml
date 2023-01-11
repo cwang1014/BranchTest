@@ -32,7 +32,7 @@
             <!-- Branch URI Scheme -->
             <intent-filter>
                 <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
-                <data android:scheme="se_curtis_wang" android:host="open"/>
+                <data android:scheme="branchsters" android:host="open"/>
             	<action android:name="android.intent.action.VIEW" />
             	<category android:name="android.intent.category.DEFAULT" />
             	<category android:name="android.intent.category.BROWSABLE" />

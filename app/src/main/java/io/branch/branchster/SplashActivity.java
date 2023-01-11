@@ -19,6 +19,7 @@ import io.branch.indexing.BranchUniversalObject;
 import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
 import io.branch.referral.util.LinkProperties;
+import io.branch.referral.validators.IntegrationValidator;
 
 public class SplashActivity extends Activity {
 
@@ -47,6 +48,7 @@ public class SplashActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+//        IntegrationValidator.validate(SplashActivity.this);
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
         Branch.sessionBuilder(this).withCallback(new Branch.BranchUniversalReferralInitListener() {

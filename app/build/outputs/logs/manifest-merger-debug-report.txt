@@ -139,14 +139,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:29:27-74
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:open+data:scheme:io.branch.branchster
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:open+data:scheme:branchsters
 ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:33:13-39:29
 data
-ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-82
+ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:17-73
 	android:host
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:61-80
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:52-71
 	android:scheme
-		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-60
+		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:35:23-51
 	android:mimeType
 		ADDED from /Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:100:19-48
 action#android.intent.action.VIEW

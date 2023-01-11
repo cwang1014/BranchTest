@@ -79,12 +79,6 @@
             android:launchMode="singleInstance"
             android:exported="true"
             android:screenOrientation="unspecified">
-            <meta-data
-                android:name="io.branch.sdk.auto_link_path"
-                android:value="monster/creator/"/>
-            <meta-data
-                android:name="io.branch.sdk.auto_link_request_code"
-                android:value="@integer/AutoDeeplinkRequestCode"/>
         </activity>
 
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="e42146267f609d143ac39e0bde3b685cd9bfe77f7bb3d5c394aaa3df3f31eda5"/>

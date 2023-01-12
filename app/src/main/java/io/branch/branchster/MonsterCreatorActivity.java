@@ -1,7 +1,5 @@
 package io.branch.branchster;
 
-import static java.sql.DriverManager.println;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -16,6 +14,7 @@ import io.branch.branchster.util.ColorController;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.indexing.BranchUniversalObject;
 
 /**
  * This class is where the user can create their own monster. It is the first that the user sees if
@@ -142,5 +141,13 @@ public class MonsterCreatorActivity extends Activity {
                       finish();
                     }
                 }).create().show();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        MonsterObject latestMonsterObj = prefs.getLatestMonsterObj();
+        monsterImageView_.setMonster(latestMonsterObj);
+//        editName.setText(latestMonsterObj.getTitle());
     }
 }

@@ -13,10 +13,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
+import org.json.JSONObject;
+
 import io.branch.branchster.fragment.InfoFragment;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.referral.util.BranchEvent;
 
 public class MonsterViewerActivity extends FragmentActivity implements InfoFragment.OnFragmentInteractionListener {
     static final int SEND_SMS = 12345;
@@ -73,6 +76,14 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
     private void initUI() {
         myMonsterObject = getIntent().getParcelableExtra(MY_MONSTER_OBJ_KEY);
+
+        new BranchEvent("monster_view")
+                .addCustomDataProperty("bodyIndex", String.valueOf(myMonsterObject.getBodyIndex()))
+                .addCustomDataProperty("colorIndex", String.valueOf(myMonsterObject.getColorIndex()))
+                .addCustomDataProperty("faceIndex", String.valueOf(myMonsterObject.getFaceIndex()))
+                .addCustomDataProperty("monsterDescription", myMonsterObject.getMonsterDescription())
+                .addCustomDataProperty("monsterName", myMonsterObject.getMonsterName())
+                .logEvent(MonsterViewerActivity.this);
 
         if (myMonsterObject != null) {
             String monsterName = getString(R.string.monster_name);

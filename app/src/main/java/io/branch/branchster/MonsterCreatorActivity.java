@@ -15,6 +15,7 @@ import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
 import io.branch.indexing.BranchUniversalObject;
+import io.branch.referral.util.BranchEvent;
 
 /**
  * This class is where the user can create their own monster. It is the first that the user sees if
@@ -44,6 +45,9 @@ public class MonsterCreatorActivity extends Activity {
 
         prefs = MonsterPreferences.getInstance(getApplicationContext());
         MonsterObject latestMonsterObj = prefs.getLatestMonsterObj();
+
+        new BranchEvent("monster_edit")
+                .logEvent(MonsterCreatorActivity.this);
 
         // Assign UI items to variables for manipulation later on.
         editName = (EditText) findViewById(R.id.editName);

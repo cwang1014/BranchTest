@@ -13,13 +13,16 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-import org.json.JSONObject;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicReference;
 
 import io.branch.branchster.fragment.InfoFragment;
 import io.branch.branchster.util.MonsterImageView;
 import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
+import io.branch.indexing.BranchUniversalObject;
 import io.branch.referral.util.BranchEvent;
+import io.branch.referral.util.LinkProperties;
 
 public class MonsterViewerActivity extends FragmentActivity implements InfoFragment.OnFragmentInteractionListener {
     static final int SEND_SMS = 12345;
@@ -32,6 +35,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
     MonsterImageView monsterImageView_;
     MonsterObject myMonsterObject;
+    MonsterPreferences prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
         monsterImageView_ = (MonsterImageView) findViewById(R.id.monster_img_view);
         monsterUrl = (TextView) findViewById(R.id.shareUrl);
         progressBar = findViewById(R.id.progress_bar);
+        prefs = MonsterPreferences.getInstance(getApplicationContext());
 
         // Change monster
         findViewById(R.id.cmdChange).setOnClickListener(new OnClickListener() {
@@ -85,6 +90,27 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
                 .addCustomDataProperty("monsterName", myMonsterObject.getMonsterName())
                 .logEvent(MonsterViewerActivity.this);
 
+        new Thread(() -> {
+            Map prepared = myMonsterObject.prepareBranchDict();
+            LinkProperties linkProperties = new LinkProperties()
+                    .setFeature("sharing")
+                    .addControlParameter("KEY_MONSTER_NAME", (String) prepared.get("monster_name"))
+                    .addControlParameter("KEY_MONSTER_DESCRIPTION", (String) prepared.get("$og_description"))
+                    .addControlParameter("KEY_MONSTER_IMAGE", (String) prepared.get("$og_image_url"))
+                    .addControlParameter("KEY_FACE_INDEX", (String) prepared.get("face_index"))
+                    .addControlParameter("KEY_BODY_INDEX", (String) prepared.get("body_index"))
+                    .addControlParameter("KEY_COLOR_INDEX", (String) prepared.get("color_index"));
+
+            BranchUniversalObject branchUniversalObject = new BranchUniversalObject();
+            branchUniversalObject.generateShortUrl(MonsterViewerActivity.this, linkProperties, (url, error) -> {
+                if (error == null) {
+                    progressBar.setVisibility(View.GONE);
+                    Log.i("MyApp", "got my Branch link to share: " + url);
+                    monsterUrl.setText(url);
+                }
+            });
+        }).start();
+
         if (myMonsterObject != null) {
             String monsterName = getString(R.string.monster_name);
 
@@ -104,7 +130,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
             // set my monster image
             monsterImageView_.setMonster(myMonsterObject);
 
-            progressBar.setVisibility(View.GONE);
+//            progressBar.setVisibility(View.GONE);
         } else {
             Log.e(TAG, "Monster is null. Unable to view monster");
         }
@@ -116,14 +142,37 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     private void shareMyMonster() {
         progressBar.setVisibility(View.VISIBLE);
 
-        String url = "fcpj8.app.link"; // TODO: Replace with Branch-generated shortUrl
+        AtomicReference<String> shareUrl = new AtomicReference<>("fcpj8.app.link"); // TODO: Replace with Branch-generated shortUrl
+
+        new Thread(() -> {
+            Map prepared = myMonsterObject.prepareBranchDict();
+            LinkProperties linkProperties = new LinkProperties()
+                    .setChannel("sms")
+                    .setFeature("sharing")
+                    .setStage("1")
+                    .addControlParameter("KEY_MONSTER_NAME", (String) prepared.get("monster_name"))
+                    .addControlParameter("KEY_MONSTER_DESCRIPTION", (String) prepared.get("$og_description"))
+                    .addControlParameter("KEY_MONSTER_IMAGE", (String) prepared.get("$og_image_url"))
+                    .addControlParameter("KEY_FACE_INDEX", (String) prepared.get("face_index"))
+                    .addControlParameter("KEY_BODY_INDEX", (String) prepared.get("body_index"))
+                    .addControlParameter("KEY_COLOR_INDEX", (String) prepared.get("color_index"));
+
+            BranchUniversalObject branchUniversalObject = new BranchUniversalObject();
+            branchUniversalObject.generateShortUrl(MonsterViewerActivity.this, linkProperties, (url, error) -> {
+                if (error == null) {
+                    progressBar.setVisibility(View.GONE);
+                    Log.i("MyApp", "got my Branch link to share: " + url);
+                    shareUrl.set(url);
+                }
+            });
+        }).start();
 
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("text/plain");
-        i.putExtra(Intent.EXTRA_TEXT, String.format("Check out my Branchster named %s at %s", myMonsterObject.getMonsterName(), url));
+        i.putExtra(Intent.EXTRA_TEXT, String.format("Check out my Branchster named %s at %s", myMonsterObject.getMonsterName(), shareUrl.get()));
         startActivityForResult(i, SEND_SMS);
 
-        progressBar.setVisibility(View.GONE);
+//        progressBar.setVisibility(View.GONE);
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

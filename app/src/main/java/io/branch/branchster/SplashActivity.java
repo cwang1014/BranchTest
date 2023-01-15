@@ -4,14 +4,18 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.json.JSONObject;
+
+import java.util.Map;
 
 import io.branch.branchster.util.MonsterPreferences;
 
@@ -88,6 +92,27 @@ public class SplashActivity extends Activity {
             }
         }).reInit();
     }
+
+    public Branch.BranchUniversalReferralInitListener branchReferralInitListener = new Branch.BranchUniversalReferralInitListener() {
+        @Override public void onInitFinished(BranchUniversalObject branchUniversalObject,
+                                             LinkProperties linkProperties, BranchError branchError) {
+            //If not Launched by clicking Branch link
+            if (branchUniversalObject == null) {
+                proceedToAppTransparent();
+            }
+            /* In case the clicked link has $android_deeplink_path the Branch will launch the MonsterViewer automatically since AutoDeeplinking feature is enabled.
+             * Launch Monster viewer activity if a link clicked without $android_deeplink_path
+             */
+            else if (!branchUniversalObject.getContentMetadata().getCustomMetadata().containsKey("$android_deeplink_path")) {
+                MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
+                prefs.saveMonster((Map<String, String>) branchUniversalObject);
+                Intent intent = new Intent(SplashActivity.this, MonsterViewerActivity.class);
+                intent.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
+                startActivity(intent);
+                finish();
+            }
+        }
+    };
 
     /**
      * Opens the appropriate next Activity, based on whether a Monster has been saved in {@link MonsterPreferences}.

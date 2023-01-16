@@ -56,7 +56,7 @@ public class SplashActivity extends Activity {
 //        IntegrationValidator.validate(SplashActivity.this);
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
-        Branch.getInstance().initSession(branchReferralInitListener, this.getIntent().getData(), this);
+        Branch.sessionBuilder(this).withCallback(branchReferralInitListener).withData(this.getIntent().getData()).init();
     }
 
     public Branch.BranchUniversalReferralInitListener branchReferralInitListener = new Branch.BranchUniversalReferralInitListener() {

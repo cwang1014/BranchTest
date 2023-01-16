@@ -57,7 +57,7 @@
 
                 <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
                 <data
-                    android:host="open"
+                    android:host="*"
                     android:scheme="branchsters" />
 
                 <action android:name="android.intent.action.VIEW" />
@@ -149,7 +149,7 @@
             android:theme="@style/Theme.Default" >
             <meta-data
                 android:name="io.branch.sdk.auto_link_path"
-                android:value="monster/viewer/" />
+                android:value="monster/creator/" />
             <meta-data
                 android:name="io.branch.sdk.auto_link_request_code"
                 android:value="@integer/AutoDeeplinkRequestCode" />

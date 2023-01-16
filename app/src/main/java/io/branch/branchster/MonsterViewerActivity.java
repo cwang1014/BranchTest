@@ -47,8 +47,8 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monster_viewer);
 
-        monsterImageView_ = (MonsterImageView) findViewById(R.id.monster_img_view);
-        monsterUrl = (TextView) findViewById(R.id.shareUrl);
+        monsterImageView_ = findViewById(R.id.monster_img_view);
+        monsterUrl = findViewById(R.id.shareUrl);
         progressBar = findViewById(R.id.progress_bar);
         prefs = MonsterPreferences.getInstance(getApplicationContext());
 
@@ -107,7 +107,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
             BranchUniversalObject branchUniversalObject = new BranchUniversalObject()
                     .setCanonicalIdentifier("monster/viewer/")
-                    .setTitle("My Monster")
+                    .setTitle((String) prepared.get("monster_name"))
                     .setContentDescription((String) prepared.get("$og_description"))
                     .setContentImageUrl((String) prepared.get("$og_image_url"))
                     .setContentMetadata(new ContentMetadata()
@@ -203,7 +203,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (SEND_SMS == requestCode) {
-            if (MonsterViewerActivity.RESULT_OK == resultCode) {
+            if (RESULT_OK == resultCode) {
                 // TODO: Track successful share via Branch.
                 new BranchEvent("monster_share")
                         .addCustomDataProperty("bodyIndex", String.valueOf(myMonsterObject.getBodyIndex()))

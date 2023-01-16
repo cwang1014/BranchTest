@@ -147,37 +147,12 @@
             android:launchMode="singleInstance"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.Default" >
-
-            <!-- Branch App Links - Live App -->
-            <intent-filter android:autoVerify="true" >
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:host="fcpj8.app.link"
-                    android:scheme="https" />
-                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
-                <data
-                    android:host="fcpj8-alternate.app.link"
-                    android:scheme="https" />
-            </intent-filter>
-            <!-- Branch App Links - Test App -->
-            <intent-filter android:autoVerify="true" >
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:host="fcpj8.test-app.link"
-                    android:scheme="https" />
-                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website. -->
-                <data
-                    android:host="fcpj8-alternate.test-app.link"
-                    android:scheme="https" />
-            </intent-filter>
+            <meta-data
+                android:name="io.branch.sdk.auto_link_path"
+                android:value="monster/viewer/" />
+            <meta-data
+                android:name="io.branch.sdk.auto_link_request_code"
+                android:value="@integer/AutoDeeplinkRequestCode" />
         </activity>
 
         <meta-data

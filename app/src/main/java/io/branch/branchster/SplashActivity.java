@@ -56,29 +56,29 @@ public class SplashActivity extends Activity {
 //        IntegrationValidator.validate(SplashActivity.this);
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
-        Branch.sessionBuilder(this).withCallback(branchReferralInitListener).withData(this.getIntent().getData()).init();
-    }
 
-    public Branch.BranchUniversalReferralInitListener branchReferralInitListener = new Branch.BranchUniversalReferralInitListener() {
-        @Override public void onInitFinished(BranchUniversalObject branchUniversalObject,
-                                             LinkProperties linkProperties, BranchError branchError) {
-            //If not Launched by clicking Branch link
-            if (branchUniversalObject == null) {
-                proceedToAppTransparent();
-            }
-            /* In case the clicked link has $android_deeplink_path the Branch will launch the MonsterViewer automatically since AutoDeeplinking feature is enabled.
-             * Launch Monster viewer activity if a link clicked without $android_deeplink_path
-             */
-            else if (!branchUniversalObject.getContentMetadata().getCustomMetadata().containsKey("$android_deeplink_path")) {
+        Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener(){
+            @Override
+            public void onInitFinished(JSONObject referringParams, BranchError error) {
                 MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
-//                prefs.saveMonster((Map<String, String>) branchUniversalObject);
-                Intent intent = new Intent(SplashActivity.this, MonsterViewerActivity.class);
-                intent.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
-                startActivity(intent);
-                finish();
+                if (error == null) {
+                    // params are the deep linked params associated with the link that the user clicked before showing up
+                    // params will be empty if no data found
+                    String monsterName = referringParams.optString("KEY_MONSTER_NAME", "");
+                        if (monsterName.equals("")) {
+                            prefs.setMonsterName("");
+                            startActivity(new Intent(SplashActivity.this, MonsterCreatorActivity.class));
+                        } else {
+                            Intent i = new Intent(SplashActivity.this, MonsterViewerActivity.class);
+                            i.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
+                            startActivity(i);
+                        }
+                } else {
+                    Log.e("MyApp", error.getMessage());
+                }
             }
-        }
-    };
+        }).withData(this.getIntent().getData()).init();
+    }
 
     @Override
     public void onResume() {

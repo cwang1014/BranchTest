@@ -152,6 +152,5 @@ public class MonsterCreatorActivity extends Activity {
         super.onResume();
         MonsterObject latestMonsterObj = prefs.getLatestMonsterObj();
         monsterImageView_.setMonster(latestMonsterObj);
-//        editName.setText(latestMonsterObj.getTitle());
     }
 }

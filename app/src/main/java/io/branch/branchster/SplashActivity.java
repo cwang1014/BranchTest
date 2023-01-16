@@ -17,6 +17,7 @@ import org.json.JSONObject;
 
 import java.util.Map;
 
+import io.branch.branchster.util.MonsterObject;
 import io.branch.branchster.util.MonsterPreferences;
 
 import io.branch.indexing.BranchUniversalObject;
@@ -39,6 +40,7 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         mContext = this;
+        MonsterObject myMonsterObject;
 
         // Get loading messages from XML definitions.
         final String[] loadingMessages = getResources().getStringArray(R.array.loading_messages);
@@ -55,25 +57,46 @@ public class SplashActivity extends Activity {
 //        IntegrationValidator.validate(SplashActivity.this);
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
-        Branch.sessionBuilder(this).withCallback((branchUniversalObject, linkProperties, error) -> {
-            if (error != null) {
-                Log.e("BranchSDK_Tester", "branch init failed. Caused by -" + error.getMessage());
-            } else {
-                Log.e("BranchSDK_Tester", "branch init complete!");
-                if (branchUniversalObject != null) {
-                    Log.e("BranchSDK_Tester", "title " + branchUniversalObject.getTitle());
-                    Log.e("BranchSDK_Tester", "CanonicalIdentifier " + branchUniversalObject.getCanonicalIdentifier());
-                    Log.e("BranchSDK_Tester", "metadata " + branchUniversalObject.getContentMetadata().convertToJson());
-                }
-
-                if (linkProperties != null) {
-                    Log.e("BranchSDK_Tester", "Channel " + linkProperties.getChannel());
-                    Log.e("BranchSDK_Tester", "control params " + linkProperties.getControlParams());
-                }
-            }
-        }).withData(this.getIntent().getData()).init();
-        proceedToAppTransparent();
+        Branch.getInstance().initSession(branchReferralInitListener, this.getIntent().getData(), this);
+//        Branch.sessionBuilder(this).withCallback((branchUniversalObject, linkProperties, error) -> {
+//            if (error != null) {
+//                Log.e("BranchSDK_Tester", "branch init failed. Caused by -" + error.getMessage());
+//            } else {
+//                Log.e("BranchSDK_Tester", "branch init complete!");
+//                if (branchUniversalObject != null) {
+//                    Log.e("BranchSDK_Tester", "title " + branchUniversalObject.getTitle());
+//                    Log.e("BranchSDK_Tester", "CanonicalIdentifier " + branchUniversalObject.getCanonicalIdentifier());
+//                    Log.e("BranchSDK_Tester", "metadata " + branchUniversalObject.getContentMetadata().convertToJson());
+//                }
+//
+//                if (linkProperties != null) {
+//                    Log.e("BranchSDK_Tester", "Channel " + linkProperties.getChannel());
+//                    Log.e("BranchSDK_Tester", "control params " + linkProperties.getControlParams());
+//                }
+//            }
+//        }).withData(this.getIntent().getData()).init();
+//        proceedToAppTransparent();
     }
+
+    public Branch.BranchUniversalReferralInitListener branchReferralInitListener = new Branch.BranchUniversalReferralInitListener() {
+        @Override public void onInitFinished(BranchUniversalObject branchUniversalObject,
+                                             LinkProperties linkProperties, BranchError branchError) {
+            //If not Launched by clicking Branch link
+            if (branchUniversalObject == null) {
+                proceedToAppTransparent();
+            }
+            /* In case the clicked link has $android_deeplink_path the Branch will launch the MonsterViewer automatically since AutoDeeplinking feature is enabled.
+             * Launch Monster viewer activity if a link clicked without $android_deeplink_path
+             */
+            else if (!branchUniversalObject.getContentMetadata().getCustomMetadata().containsKey("$android_deeplink_path")) {
+                MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
+                Intent intent = new Intent(SplashActivity.this, MonsterViewerActivity.class);
+                intent.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
+                startActivity(intent);
+                finish();
+            }
+        }
+    };
 
     @Override
     public void onResume() {
@@ -92,27 +115,6 @@ public class SplashActivity extends Activity {
             }
         }).reInit();
     }
-
-    public Branch.BranchUniversalReferralInitListener branchReferralInitListener = new Branch.BranchUniversalReferralInitListener() {
-        @Override public void onInitFinished(BranchUniversalObject branchUniversalObject,
-                                             LinkProperties linkProperties, BranchError branchError) {
-            //If not Launched by clicking Branch link
-            if (branchUniversalObject == null) {
-                proceedToAppTransparent();
-            }
-            /* In case the clicked link has $android_deeplink_path the Branch will launch the MonsterViewer automatically since AutoDeeplinking feature is enabled.
-             * Launch Monster viewer activity if a link clicked without $android_deeplink_path
-             */
-            else if (!branchUniversalObject.getContentMetadata().getCustomMetadata().containsKey("$android_deeplink_path")) {
-                MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
-                prefs.saveMonster((Map<String, String>) branchUniversalObject);
-                Intent intent = new Intent(SplashActivity.this, MonsterViewerActivity.class);
-                intent.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
-                startActivity(intent);
-                finish();
-            }
-        }
-    };
 
     /**
      * Opens the appropriate next Activity, based on whether a Monster has been saved in {@link MonsterPreferences}.

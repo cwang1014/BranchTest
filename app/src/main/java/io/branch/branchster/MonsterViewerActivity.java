@@ -119,9 +119,9 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
                 @Override
                 public void onLinkCreate(String url, BranchError error) {
                     if (error == null) {
+                        monsterUrl.setText(url);
                         progressBar.setVisibility(View.GONE);
                         Log.i("MyApp", "got my Branch link to share: " + url);
-                        monsterUrl.setText(url);
                     }
                 }
             });
@@ -146,7 +146,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
             // set my monster image
             monsterImageView_.setMonster(myMonsterObject);
 
-//            progressBar.setVisibility(View.GONE);
+            progressBar.setVisibility(View.GONE);
         } else {
             Log.e(TAG, "Monster is null. Unable to view monster");
         }
@@ -158,14 +158,11 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
     private void shareMyMonster() {
         progressBar.setVisibility(View.VISIBLE);
 
-        System.out.println(monsterUrl.getText().toString());
-
         new Thread(() -> {
             Map prepared = myMonsterObject.prepareBranchDict();
             LinkProperties linkProperties = new LinkProperties()
                     .setChannel("sms")
                     .setFeature("sharing")
-                    .setStage("1")
                     .addControlParameter("KEY_MONSTER_NAME", (String) prepared.get("monster_name"))
                     .addControlParameter("KEY_MONSTER_DESCRIPTION", (String) prepared.get("$og_description"))
                     .addControlParameter("KEY_MONSTER_IMAGE", (String) prepared.get("$og_image_url"))
@@ -176,7 +173,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
             BranchUniversalObject branchUniversalObject = new BranchUniversalObject()
                     .setCanonicalIdentifier("monster/viewer/")
-                    .setTitle("My Monster")
+                    .setTitle((String) prepared.get("monster_name"))
                     .setContentDescription((String) prepared.get("$og_description"))
                     .setContentImageUrl((String) prepared.get("$og_image_url"))
                     .setContentMetadata(new ContentMetadata()
@@ -206,7 +203,7 @@ public class MonsterViewerActivity extends FragmentActivity implements InfoFragm
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (SEND_SMS == requestCode) {
-            if (RESULT_OK == resultCode) {
+            if (MonsterViewerActivity.RESULT_OK == resultCode) {
                 // TODO: Track successful share via Branch.
                 new BranchEvent("monster_share")
                         .addCustomDataProperty("bodyIndex", String.valueOf(myMonsterObject.getBodyIndex()))

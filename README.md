@@ -244,7 +244,10 @@ public class BranchsterAndroidApplication extends MultiDexApplication {
         }
     }
 ```
-10) To set up routing to a specific monster based on params returned in onInitFinished the application uses in-app routing immediately on app open. Referring params will be empty if no data is found, and the user can be routed to the monster creator, otherwise if params exist then the user clicked on a Branch deep link and the application can route the user to the monster viewer page to view the shared monster.
+10) Running the application and navigating to the different activities should post in the console logs that the Branch API made a POST call. The Liveview section of the Dashboard should also display the custom events if they are being properly tracked.
+    ![Branch_Console_Logs](https://res.cloudinary.com/cwhrcloud/image/upload/v1675101238/Screenshot_2023-01-30_at_9.52.49_AM_kiuldz.jpg)
+    ![Branch_Liveview](https://res.cloudinary.com/cwhrcloud/image/upload/v1675101401/Screenshot_2023-01-30_at_9.56.21_AM_vev4cs.jpg)
+11) To set up routing to a specific monster based on params returned in onInitFinished the application uses in-app routing immediately on app open. Referring params will be empty if no data is found, and the user can be routed to the monster creator, otherwise if params exist then the user clicked on a Branch deep link and the application can route the user to the monster viewer page to view the shared monster.
 ```java
 @Override
     protected void onStart() {
@@ -272,7 +275,7 @@ public class BranchsterAndroidApplication extends MultiDexApplication {
         }).withData(this.getIntent().getData()).init();
     }
 ```
-11) Adding custom event tracking to the monster edit and view pages utilizes the BranchEvent and allows developers to track an event that isn't a predefined Branch event
+12) Adding custom event tracking to the monster edit and view pages utilizes the BranchEvent and allows developers to track an event that isn't a predefined Branch event
 ```java
 ...
 /* Add a new Branch Event with a custom alias and custom metadata */
@@ -284,9 +287,6 @@ new BranchEvent("monster_view")
                 .addCustomDataProperty("monsterName", myMonsterObject.getMonsterName())
                 .logEvent(MonsterViewerActivity.this);
 ```
-12) Running the application and navigating to the different activities should post in the console logs that the Branch API made a POST call. The Liveview section of the Dashboard should also display the custom events if they are being properly tracked.
-    ![Branch_Console_Logs](https://res.cloudinary.com/cwhrcloud/image/upload/v1675101238/Screenshot_2023-01-30_at_9.52.49_AM_kiuldz.jpg)
-    ![Branch_Liveview](https://res.cloudinary.com/cwhrcloud/image/upload/v1675101401/Screenshot_2023-01-30_at_9.56.21_AM_vev4cs.jpg)
 13) Generating short URLs asynchronously in Java can be done using new Thread(() -> {}).start() and calling the generateShortUrl method of the Branch Universal Object
 ```java
 new Thread(() -> {

@@ -37,7 +37,7 @@ Please reference the Branch developer docs for more information regarding basic 
         package="io.branch.branchster">
 ```
 3) Generate signed bundle/APK with new keystore and key, use that generated keystore to obtain a SHA256 fingerprint from application to add to branch dashboard, more details here: https://help.branch.io/developers-hub/docs/android-app-links#setup
-![Branch_Configuration](https://drive.google.com/file/d/1CvmJj_Ixnm4sJouP55xvDgtfvdxmiWkS/view?usp=sharing)
+![Branch_Configuration](https://res.cloudinary.com/cwhrcloud/image/upload/v1675066156/Screenshot_2023-01-30_at_12.03.26_AM_hx0wrn.jpg)
 
 
 This repository does not contain API keys so you need to define your own in order for the connected APIs to function. With the exception of the *Crashlytics ApiKey* (see the note below) the keys are defined as XML string resources and referenced at build-time. If you build the project as-is, you will get something like the following error:

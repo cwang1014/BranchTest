@@ -58,7 +58,7 @@ android {
 ```java
 dependencies {
 ...
-    <!-- This is the code that will install the Branch SDK -->
+    /* This is the code that will install the Branch SDK */
     // required for all Android apps
     implementation 'io.branch.sdk.android:library:5.+'
     // required if your app is in the Google Play Store (tip: avoid using bundled play services libs)
@@ -199,7 +199,6 @@ public class BranchsterAndroidApplication extends MultiDexApplication {
     @Override
     protected void onStart() {
         super.onStart();
-//        IntegrationValidator.validate(SplashActivity.this);
         Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener() {
     @Override
         public void onInitFinished(JSONObject referringParams, BranchError error) {

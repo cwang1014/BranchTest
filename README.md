@@ -52,7 +52,7 @@ android {
         package="io.branch.branchster">
 ```
 3) Generate signed bundle/APK with new keystore and key, use that generated keystore to obtain a SHA256 fingerprint from application to add to branch dashboard, more details here: https://help.branch.io/developers-hub/docs/android-app-links#setup
-4) Added branchsters:// URI scheme, set custom URL to branch generated link domain, and app package name
+4) Add branchsters:// URI scheme to Branch dashboard, set custom URL to branch generated link domain, and app package name to package name from manifest
 ![Branch_Configuration](https://res.cloudinary.com/cwhrcloud/image/upload/v1675066156/Screenshot_2023-01-30_at_12.03.26_AM_hx0wrn.jpg)
 5) Install the Branch SDK by adding the three necessary dependency implementations to the app/module level build.gradle file
 ```java
@@ -196,95 +196,130 @@ public class BranchsterAndroidApplication extends MultiDexApplication {
 8) Ensure Branch is initialized in the activity you have set to android.intent.category.LAUNCHER in onStart() (onStart() is what makes the activity visible to the user, as the app prepares for the activity to enter the foreground and become interactive)
 ```java
 ...
-@Override
-protected void onStart() {
+    @Override
+    protected void onStart() {
         super.onStart();
 //        IntegrationValidator.validate(SplashActivity.this);
         Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener() {
-@Override
-public void onInitFinished(JSONObject referringParams, BranchError error) {
-        MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
-        if (error == null) {
-        // params are the deep linked params associated with the link that the user clicked before showing up
-        // params will be empty if no data found
-        String monsterName = referringParams.optString("KEY_MONSTER_NAME", "");
-        if (monsterName.equals("")) {
-        prefs.setMonsterName("");
-        startActivity(new Intent(SplashActivity.this, MonsterCreatorActivity.class));
-        } else {
-        Intent i = new Intent(SplashActivity.this, MonsterViewerActivity.class);
-        i.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
-        startActivity(i);
-        }
-        } else {
-        Log.e("MyApp", error.getMessage());
-        }
-        }
+    @Override
+        public void onInitFinished(JSONObject referringParams, BranchError error) {
+            MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
+            if (error == null) {
+                String monsterName = referringParams.optString("KEY_MONSTER_NAME", "");
+                    if (monsterName.equals("")) {
+                        prefs.setMonsterName("");
+                        startActivity(new Intent(SplashActivity.this, MonsterCreatorActivity.class));
+                    } else {
+                        Intent i = new Intent(SplashActivity.this, MonsterViewerActivity.class);
+                        i.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
+                        startActivity(i);
+                    }
+            } else {
+                Log.e("MyApp", error.getMessage());
+            }}
         }).withData(this.getIntent().getData()).init();
+    }
+```
+9) After configuration, you can test if the app properly calls the Branch API by enabling test mode and inserting the Integration Validator into the onStart() method and checking the logs after building and running the app on your device
+```java
+public class BranchsterAndroidApplication extends MultiDexApplication {
+    public void onCreate() {
+        super.onCreate();
+        Branch.enableLogging();
+        /* Be sure to enable test mode in your custom application class */
+        Branch.enableTestMode();
+        Branch.getAutoInstance(this);
+    }
+}
+```
+```java
+@Override
+    protected void onStart() {
+        super.onStart();
+        /* Integration Validator goes here */
+        IntegrationValidator.validate(SplashActivity.this);
+        Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener(){
+        @Override
+            public void onInitFinished(JSONObject referringParams,BranchError error){
+            }
         }
+    }
 ```
-9) 
-
-
-This repository does not contain API keys so you need to define your own in order for the connected APIs to function. With the exception of the *Crashlytics ApiKey* (see the note below) the keys are defined as XML string resources and referenced at build-time. If you build the project as-is, you will get something like the following error:
-
+10) To set up routing to a specific monster based on params returned in onInitFinished the application uses in-app routing immediately on app open. Referring params will be empty if no data is found, and the user can be routed to the monster creator, otherwise if params exist then the user clicked on a Branch deep link and the application can route the user to the monster viewer page to view the shared monster.
+```java
+@Override
+    protected void onStart() {
+        super.onStart();
+        Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener() {
+            @Override
+            public void onInitFinished(JSONObject referringParams, BranchError error) {
+                MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
+                if (error == null) {
+                    // params are the deep linked params associated with the link that the user clicked before showing up
+                    // params will be empty if no data found
+                    String monsterName = referringParams.optString("KEY_MONSTER_NAME", "");
+                        if (monsterName.equals("")) {
+                            prefs.setMonsterName("");
+                            startActivity(new Intent(SplashActivity.this, MonsterCreatorActivity.class));
+                        } else {
+                            Intent i = new Intent(SplashActivity.this, MonsterViewerActivity.class);
+                            i.putExtra(MonsterViewerActivity.MY_MONSTER_OBJ_KEY, prefs.getLatestMonsterObj());
+                            startActivity(i);
+                        }
+                } else {
+                    Log.e("MyApp", error.getMessage());
+                }
+            }
+        }).withData(this.getIntent().getData()).init();
+    }
 ```
-Error: .. No resource found that matches the given name (at 'value' with value '@string/..').
+11) Adding custom event tracking to the monster edit and view pages utilizes the BranchEvent and allows developers to track an event that isn't a predefined Branch event
+```java
+...
+/* Add a new Branch Event with a custom alias and custom metadata */
+new BranchEvent("monster_view")
+                .addCustomDataProperty("bodyIndex", String.valueOf(myMonsterObject.getBodyIndex()))
+                .addCustomDataProperty("colorIndex", String.valueOf(myMonsterObject.getColorIndex()))
+                .addCustomDataProperty("faceIndex", String.valueOf(myMonsterObject.getFaceIndex()))
+                .addCustomDataProperty("monsterDescription", myMonsterObject.getMonsterDescription())
+                .addCustomDataProperty("monsterName", myMonsterObject.getMonsterName())
+                .logEvent(MonsterViewerActivity.this);
+```
+12) Running the application and navigating to the different activities should post in the console logs that the Branch API made a POST call. The Liveview section of the Dashboard should also display the custom events if they are being properly tracked.
+    ![Branch_Console_Logs](https://res.cloudinary.com/cwhrcloud/image/upload/v1675101238/Screenshot_2023-01-30_at_9.52.49_AM_kiuldz.jpg)
+    ![Branch_Liveview](https://res.cloudinary.com/cwhrcloud/image/upload/v1675101401/Screenshot_2023-01-30_at_9.56.21_AM_vev4cs.jpg)
+13) Generating short URLs asynchronously in Java can be done using new Thread(() -> {}).start() and calling the generateShortUrl method of the Branch Universal Object
+```java
+new Thread(() -> {
+            Map prepared = myMonsterObject.prepareBranchDict();
+            LinkProperties linkProperties = new LinkProperties()
+                    .addControlParameter("KEY_MONSTER_NAME", (String) prepared.get("monster_name"))
+                    .addControlParameter("KEY_MONSTER_DESCRIPTION", (String) prepared.get("$og_description"))
+                    .addControlParameter("KEY_MONSTER_IMAGE", (String) prepared.get("$og_image_url"))
+                    .addControlParameter("KEY_FACE_INDEX", (String) prepared.get("face_index"))
+                    .addControlParameter("KEY_BODY_INDEX", (String) prepared.get("body_index"))
+                    .addControlParameter("KEY_COLOR_INDEX", (String) prepared.get("color_index"));
+
+            BranchUniversalObject branchUniversalObject = new BranchUniversalObject()
+                    .setCanonicalIdentifier("monster/viewer/")
+                    .setTitle((String) prepared.get("monster_name"))
+                    .setContentDescription((String) prepared.get("$og_description"))
+                    .setContentImageUrl((String) prepared.get("$og_image_url"))
+                    .setContentMetadata(new ContentMetadata()
+                            .addCustomMetadata("KEY_MONSTER_NAME", (String) prepared.get("monster_name"))
+                            .addCustomMetadata("KEY_FACE_INDEX", (String) prepared.get("face_index"))
+                            .addCustomMetadata("KEY_BODY_INDEX", (String) prepared.get("body_index"))
+                            .addCustomMetadata("KEY_COLOR_INDEX", (String) prepared.get("color_index")));
+            branchUniversalObject.generateShortUrl(MonsterViewerActivity.this, linkProperties, new Branch.BranchLinkCreateListener() {
+                @Override
+                public void onLinkCreate(String url, BranchError error) {
+                    if (error == null) {
+                        monsterUrl.setText(url);
+                        progressBar.setVisibility(View.GONE);
+                        Log.i("MyApp", "got my Branch link to share: " + url);
+                    }
+                }
+            });
+}).start();
 ```
 
-To set up your own API keys and get rid of this error:
-
-1. Open up **api_keys.xml** which exists in the */res/values* folder.
-2. Insert your Branch App Key, Facebook ID and Twitter key/secret in this file.
-3. Clean/Rebuild your project.
-
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!--
-    Your Branch App Key Goes Here
-    If you don't have one, see the Branch Android Quick-Start for how to get one:
-    https://github.com/BranchMetrics/Branch-Integration-Guides/blob/master/android-quick-start.md
-    -->
-    <string name="bnc_app_key">YOUR BRANCH APP KEY</string>
-
-    <!--
-    Your Your Facebook App ID Goes Here
-    If you don't have one, see the Facebook SDK for Android documentation:
-    https://developers.facebook.com/docs/android
-    -->
-    <string name="facebook_app_id">YOUR FACEBOOK APP ID</string>
-
-    <!--
-    Your Twitter Key and Secret Goes Here
-    If you don't have these, see the Twitter Kit for Android documentation:
-    https://dev.twitter.com/twitter-kit/android
-    -->
-    <string name="twitter_key">YOUR TWITTER APP KEY</string>
-    <string name="twitter_secret">YOUR TWITTER APP SECRET</string>
-
-</resources>
-```
-
-### Fabric/Crashlytics (required for Twitter integration)
-
-Twitter's Fabric framework doesn't currently allow the *com.crashlytics.ApiKey* meta-data to be specified as a String resource in the *ApplicationManifest.xml* file. If you try to add the key as a *@string/..* reference you will get a *Crashlytics Developer Tools error* at build time.
-
-So to get Twitter integration working, you will need to insert your Crashyltics key directly in *AndroidManifest.xml* like so:
-
-```XML
-<manifest .. >
-  <application .. />
-  
-    <activity .. />
-
-    <meta-data 
-      android:name="com.crashlytics.ApiKey"
-      android:value="YOUR FABRIC/CRASHLYTICS ApiKey" />
-      
-      --
-      
-  </application>
-</manifest>
-```

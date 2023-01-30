@@ -100,7 +100,7 @@
 58                <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
 59                <data
 59-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:17-76
-60                    android:host="*"
+60                    android:host="open"
 60-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:45-74
 61                    android:scheme="branchsters" />
 61-->/Users/curtiswang/projects/Job Application/BranchTest/Branchster-Android-No-SDK/app/src/main/AndroidManifest.xml:30:23-44

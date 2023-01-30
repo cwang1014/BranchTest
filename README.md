@@ -1,7 +1,39 @@
-Branchster-Android
+Branch SDK Integration
 ==================
+This is an example Android application demonstrating Branch SDK integration and some of the features that are enabled as a result.
 
-## Configuring Keys and Secrets
+## Documentation
+Please reference the Branch developer docs for more information regarding basic configuration at https://help.branch.io/developers-hub/docs/android-basic-integration
+
+## Steps
+1) Start out by replacing the Branch and Twitter API keys and secrets in app/src/main/res/values/api_keys.xml. Branch API key and secret can be found on Account Settings page of Branch dashboard and Twitter API key and secret can be created using a developer account
+```XML
+...
+<resources>
+
+    <!--
+    Your Branch App Key Goes Here
+    If you don't have one, see the Branch Android Quick-Start for how to get one:
+    https://github.com/BranchMetrics/Branch-Integration-Guides/blob/master/android-quick-start.md
+    -->
+    <string name="branch_key">key_live_dnW19wxhWck7gbzSnSOcuohjFEhOK69n</string>
+    <string name="branch_key_test">key_test_lkhEVOq9sPU9FXgbSAoQthfhqsd5EVaV</string>
+
+
+    <!--
+    Your Twitter Key and Secret Goes Here
+    If you don't have these, see the Twitter Kit for Android documentation:
+    https://dev.twitter.com/twitter-kit/android
+    -->
+    <string name="twitter_key">qO0tmxg5cEaWIkoe9JZpfuh8C</string>
+    <string name="twitter_secret">lnvabgSzxOnevjnyIGGqeHRmY8SpIfvTCyssQzaBBA9YiLjCd6</string>
+
+</resources>
+```
+2) Update Gradle wrapper and Android API level using SDK versions in top-level and app-level build.gradle files, and set manifest package in AndroidManifest.xml to io.branch.branchster, the same package being imported in Java activity files
+
+
+
 This repository does not contain API keys so you need to define your own in order for the connected APIs to function. With the exception of the *Crashlytics ApiKey* (see the note below) the keys are defined as XML string resources and referenced at build-time. If you build the project as-is, you will get something like the following error:
 
 ```

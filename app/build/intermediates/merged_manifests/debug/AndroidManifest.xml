@@ -57,7 +57,7 @@
 
                 <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
                 <data
-                    android:host="*"
+                    android:host="open"
                     android:scheme="branchsters" />
 
                 <action android:name="android.intent.action.VIEW" />

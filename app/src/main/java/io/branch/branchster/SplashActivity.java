@@ -57,7 +57,7 @@ public class SplashActivity extends Activity {
         // TODO: Initialize Branch session.
         // TODO: If a monster was linked to, open the viewer Activity to that Monster.
 
-        Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener(){
+        Branch.sessionBuilder(this).withCallback(new Branch.BranchReferralInitListener() {
             @Override
             public void onInitFinished(JSONObject referringParams, BranchError error) {
                 MonsterPreferences prefs = MonsterPreferences.getInstance(getApplicationContext());
